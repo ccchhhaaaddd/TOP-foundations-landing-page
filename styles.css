@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 0px;
     margin:0;
     overflow: hidden;
     font-family: sans-serif;
@@ -24,12 +24,16 @@ body{
     align-items: center;
     padding-left: 10px;
     font-weight: 800;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-right{
     display: flex;
     gap: 10px;
     padding-right: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
 
 }
 
@@ -47,6 +51,7 @@ body{
     background-color: gray;
     padding: 30px;
     width:300px;
+    margin: 10px;
 
 }
 
@@ -54,6 +59,12 @@ body{
     display:flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 
 
@@ -67,6 +78,12 @@ body{
     margin-bottom: 20px;
 }
 
+.information-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
 .information-list{
     display: flex;
     margin-top: 30px;
@@ -76,6 +93,7 @@ body{
 
 .information-item{
     width: 100px;
+
 }
 /* QUOTE SECTION */
 
@@ -85,11 +103,19 @@ body{
     padding: 100px;
     gap:20px;
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1D2937;
 }
 
 .quote-bottom{
     display: flex;
     justify-content: flex-end;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1D2937;
 }
 
 /* ACTION SECTION */
@@ -102,6 +128,13 @@ body{
     padding: 10px;
     gap: 20px;
     border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.action-title{
+    font-weight: 700;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 /* FOOTER SECTION */
@@ -140,8 +173,9 @@ a{
   }
 
   .empty-box{
-    border: 3px solid blue;
+    border: 3px solid #3882F6;
     border-radius: 10px;
     width: 100px;
     height: 100px;
+    margin-bottom: 10px;
   }
